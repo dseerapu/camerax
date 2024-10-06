@@ -4,7 +4,7 @@ This Android app demonstrates capturing images using CameraX, generating zoomed 
 
 Features
 
-	•	All Images Screen: Displays all the captured images.
+	•	All Images Screen: Displays all the captured images using pagination and displays 10 images at a time for smooth loading.
 	•	Capture Permissions Screen: Requests the user’s permission to capture images. Once captured, GenerateImagesWithZoomLevelsWorker generates multiple zoomed images (1.5x, 2.0x, 2.5x, 3.0x) and sends a notification.
 	•	Settings Screen: Contains switches for enabling notifications and toggling between light and dark themes.
 
