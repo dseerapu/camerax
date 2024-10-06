@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">camerax</string>
+    <string name="capture">Capture</string>
+    <string name="all_images">All Images</string>
+    <string name="captured_images">Captured Images</string>
+    <string name="capture_image">Capture Image</string>
+    <string name="camera_icon">Camera Icon</string>
+    <string name="image_details">Image Details</string>
+    <string name="close">Close</string>
+    <string name="zoom_level">Zoom</string>
+    <string name="settings">Settings</string>
+    <string name="no_images_captured_yet_click_on_capture_image_button_to_capture_images">No images captured yet.\n Click on Capture Image button to capture images.</string>
+</resources>
