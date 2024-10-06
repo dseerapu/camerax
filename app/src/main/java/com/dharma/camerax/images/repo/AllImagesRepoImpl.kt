@@ -7,7 +7,7 @@ class AllImagesRepoImpl : AllImagesRepo {
 
     override suspend fun loadImagesFromDirectory(directory: File): List<Uri> {
         val imageFiles = directory.listFiles { file ->
-            file.extension.lowercase() in listOf("jpg", "jpeg", "png")
+            file.extension.lowercase() in listOf("jpg", "jpeg")
         }?.map { file -> Uri.fromFile(file) } ?: emptyList()
         return imageFiles
     }

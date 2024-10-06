@@ -90,6 +90,7 @@ dependencies {
     implementation(libs.androidx.hilt.navigation.compose)
     implementation(libs.androidx.hilt.work)
 
+    // Data Store
     implementation(libs.androidx.datastore)
     implementation(libs.androidx.datastore.preferences)
 
