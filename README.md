@@ -1,4 +1,4 @@
-CameraX App with Jetpack Compose and MVVM
+CameraX App with Jetpack Compose and MVVM with Clean Architecture
 
 This Android app demonstrates capturing images using CameraX, generating zoomed versions of the images in the background, and using Jetpack Compose for the UI. It follows the MVVM design pattern and leverages popular libraries like Hilt, Coil, and WorkManager to provide a clean and modern development experience.
 
@@ -15,6 +15,7 @@ Design Patterns
 	3.	Singleton: Ensures single instances of key classes such as repositories and ViewModels.
 	4.	Observer Pattern: Observes changes in data using Flow and StateFlow to reactively update the UI.
 	5.	Repository Pattern: Separates data sources (e.g., CameraX, DataStore) from the business logic.
+ 	6. 	Material3 system design : App and screens design
 
 Libraries Used
 
@@ -28,7 +29,7 @@ Libraries Used
 
 Design Principles
 
-	*	SOLID Principles:
+	*	SOLID Principles
 
 
 Functionality
