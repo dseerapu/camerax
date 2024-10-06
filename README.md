@@ -10,7 +10,7 @@ Features
 
 Design Patterns
 
-	1.	** MVVM **: Implements the Model-View-ViewModel architecture.
+	1.	MVVM : Implements the Model-View-ViewModel architecture.
 	2.	Dependency Injection: Uses Hilt to inject dependencies across the app.
 	3.	Singleton: Ensures single instances of key classes such as repositories and ViewModels.
 	4.	Observer Pattern: Observes changes in data using Flow and StateFlow to reactively update the UI.
